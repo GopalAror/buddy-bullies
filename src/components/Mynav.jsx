@@ -10,12 +10,12 @@ const Mynav = () => {
             <nav class='relative'>
                 <div class='container d-flex align-items-center justify-content-between h-80'>
                    <ul class='mb-0'><li class='list-unstyled'><a class='text-white lh-normal poppins fs-xm fw-medium  text-decoration-none ' href="#">Logo</a></li></ul>
-                    <label class='d-flex flex-column gap-2 menu d-md-none position-absolute z-3' onClick={myNav}>
+                    <label class='d-flex flex-column gap-2 menu d-md-none position-absolute' onClick={myNav}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
-                    <ul class='d-flex align-items-center gap-80 mobileView mb-0'>
+                    <ul class='d-flex align-items-center gap-80 mobileView mb-0 ps-0 '>
                         <li class='list-unstyled'><a class='text-white lh-normal poppins fs-s fw-medium text-decoration-none ' href="#">Minting</a></li>
                         <li class='list-unstyled'><a class='text-white lh-normal poppins fs-s fw-medium text-decoration-none ' href="#">Road Map</a></li>
                         <li class='list-unstyled'><a class='text-white lh-normal poppins fs-s fw-medium text-decoration-none' href="#">Faq</a></li>

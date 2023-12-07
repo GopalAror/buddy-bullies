@@ -24,9 +24,9 @@ const Mymint = () => {
                             <button class="btn lightblue fs-l poppins lh-normal fw-medium bg-white px-40 mt-60">Coming soon</button>
                         </div>
                         <div class=" mt-5 d-flex gap-4">
-                            <a href="https://www.instagram.com/"><img class="icon" src={insta} alt="icon" /> </a>
-                            <a href="https://twitter.com/"><img class="icon" src={twitr} alt="icon" /> </a>
-                            <a href="https://discord.com/"><img class="icon" src={discord} alt="icon" /> </a>
+                            <a href="https://www.instagram.com/" target='_blank'><img class="icon" src={insta} alt="icon" /> </a>
+                            <a href="https://twitter.com/" target='_blank'><img class="icon" src={twitr} alt="icon" /> </a>
+                            <a href="https://discord.com/" target='_blank'><img class="icon" src={discord} alt="icon" /> </a>
                         </div>
                     </div>
                 </div>
