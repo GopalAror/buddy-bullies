@@ -7,11 +7,11 @@ import Mymap from './components/Mymap';
 import Mycard from './components/Mycard';
 function App() {
   return (
-    <div class="overflow-hidden ">
-      <div class='bg-head'>
+    <div className="overflow-hidden ">
+      <div className='bg-head'>
         <Mynav />
       </div>
-      <div class="bg-color position-relative ">
+      <div className="bg-color position-relative ">
         <Mymint />
         <Mymap />
       </div>
